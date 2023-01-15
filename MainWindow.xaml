@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp13"
+        mc:Ignorable="d"
+        Title="Треугольник Серпинского" Height="450" Width="1837"
+        WindowState="Maximized">
+    <Grid>
+        <Canvas x:Name="Cnv1" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="1809">
+            <Button x:Name="Btn1" Content="Жми" HorizontalAlignment="Left" VerticalAlignment="Top" Width="282" Click="Btn1_Click" Canvas.Bottom="20" Canvas.Right="10" Canvas.Left="1040" Canvas.Top="26" FontSize="24"/>
+            <Label x:Name="Lbl1" Content="Количество повторений" Canvas.Left="815" Canvas.Top="62" Width="839" HorizontalAlignment="Right" FontSize="48"/>
+        </Canvas>
+
+
+    </Grid>
+</Window>
